@@ -4,7 +4,7 @@
 
 <p style="background-image: url('spoon and fork image.jpg');">
 <img src="final logo.jpg" width=500 height=300/>
-<h4>Grow.Eat.Protect<h4>
+<h3>Grow.Eat.Protect<h3>
 <meta name="viewport" content="width=device-width,  initial-scale=1">
 
 <hr>
@@ -19,7 +19,8 @@ prompt("How much food waste you produce a day? Please Try To Reduce It.","5Kg?")
 
  FOOD WASTE NOT IN GOOD TASTE!
 </strong>
-<p> <h3>
+<font size="3">
+<p style="color:#654321";>
 As the world population continues to grow, much more effort and innovation will be urgently needed in order to sustainably increase agricultural production,
 improve the global supply chain, decrease food losses and waste, and ensure that all who are suffering from hunger and malnutrition have access to nutritious food.
 Many in the international community believe that it is
@@ -29,14 +30,20 @@ World leaders at the 2012 Conference on Sustainable Development (Rio+20) reaffir
 consistent with the right to adequate food and the fundamental right of everyone to be free from hunger. The UN Secretary-General’s Zero Hunger Challenge launched 
 at Rio+20 called on governments, civil society, faith communities, the private sector, and research institutions to unite to end hunger and eliminate the worst forms
 of malnutrition.
-<h3></P>
+
+</P>
+</font>
 <hr>
+<h2> The Zero Hunger Challenge has since garnered widespread support from many member States and other entities. It calls for:</h2>
 
 <ul> 
-   <li>You Are What You Eat</li>
-   <li>Eat What You Grow</li>
-   <li>Grow Your Community</li>
+   <li>Zero stunted children under the age of two</li>
+   <li>100% access to adequate food all year round</li>
+   <li>All food systems are sustainable</li>
+   <li> 100% increase in smallholder productivity and income</li>
+   <li> Zero loss or waste of food</li>
 </ul>
+
 <hr>
 <h2>Hunger Is Not An Issue </h2>
 
