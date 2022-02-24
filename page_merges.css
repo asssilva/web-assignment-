@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Food Security And Nutrition</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background-color:black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+
+            background-image:"green-peas-and-roasted-coffee-beans-in-world-map-shape-on-white-background-WFTYMH.jpg";
+            background-color: #87CEEB;
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: #FF8C00;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "C:\Users\user\Desktop\No More Hungry Tummies\food2.jpeg">
+            </div>
+            <li><a href="#web">The State of Food Security and Nutrition in the World 2021 (SOFI)</a></li>
+            <li><a href="#program">Committee on World Food Security (CFS 46)</a></li>
+            <li><a href="#course">More</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">The State of Food Security and Nutrition in the World 2021 (SOFI)</h1>
+                <p class="text-small">
+                    The State of Food Security and Nutrition in the World 2021 (SOFI 2021) report presents the first evidence-based global assessment of chronic food insecurity in the year the COVID-19 pandemic emerged and spread across the globe.
+
+The SOFI 2021 report will also focus on complementary food system solutions that address the key drivers of food insecurity and malnutrition, i.e. conflict, climate variability and extremes, economic slowdowns and downturns, and COVID-19, and that ensure access to affordable healthy diets for all. It will look in-depth at six transformative pathways to achieve this, drawing upon best practices and lessons learned from around the world.  
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program">
+                    Committee on World Food Security (CFS 46)
+                </h1>
+                <p class="text-small">
+                    he Food and Agriculture Organization (FAO) is a specialized agency of the United Nations that leads international efforts to defeat hunger.
+Our goal is to achieve food security for all and make sure that people have regular access to enough high-quality food to lead active, healthy lives. With over 194 member states, FAO works in over 130 countries worldwide. We believe that everyone can play a part in ending hunger.
+
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">The Zero Hunger Challenge</h1>
+ 
+            <p class="sectionSubTag text-small">
+              <h2> The Zero Hunger Challenge has since garnered widespread support from many member States and other entities. It calls for:</h2>
+
+<ul> 
+   <li>Zero stunted children under the age of two</li>
+   <li>100% access to adequate food all year round</li>
+   <li>All food systems are sustainable</li>
+   <li> 100% increase in smallholder productivity and income</li>
+   <li> Zero loss or waste of food</li>
+</ul>
+
+<hr>
+            </p>
+ 
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "C:\Users\user\Desktop\No More Hungry Tummies\istockphoto-619643870-612x612.jpg" alt="Hungry child image">
+        </div>
+    </section>
+
+ 
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+ 
+ 
+    </footer>
+</body>
+ 
+</html>
